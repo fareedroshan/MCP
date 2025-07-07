@@ -1,0 +1,8 @@
+paramiko
+openai
+cryptography
+pyyaml # For potential future config/data handling, though not directly used yet
+rich # For better CLI output, if desired later
+# netmiko - Consider if more specialized Cisco/multi-vendor handling is needed beyond basic paramiko
+# ncclient - For NETCONF interactions, if added
+# requests - For REST APIs (e.g., Palo Alto API if not using CLI via SSH)
